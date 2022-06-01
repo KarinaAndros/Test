@@ -576,3 +576,53 @@ main {
         width: 85%;
     }
 }
+
+@media screen and (max-width:912px) {
+    .header_inner {
+        width: 90%;
+    }
+    .logo {
+        width: 100%;
+    }
+    .menu {
+        margin-right: 55px;
+    }
+    .cart_block {
+        margin-left: 66px;
+        width: 17%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .cart_block {
+        width: 24%;
+        margin-left: 27px;
+    }
+    .menu {
+        margin-right: 29px;
+    }
+    .line {
+        margin: 13px 13px;
+    }
+    .number {
+        font-size: 10px;
+    }
+    .menu_title {
+        font-size: 10px;
+    }
+    .number span {
+        font-size: 9px;
+    }
+    .amount {
+        margin-left: 5px;
+    }
+    .card_description p {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .amount {
+        margin-top: 18px;
+    }
+}
