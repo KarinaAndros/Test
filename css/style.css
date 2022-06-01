@@ -593,7 +593,7 @@ main {
     }
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:727px) {
     .cart_block {
         width: 24%;
         margin-left: 27px;
